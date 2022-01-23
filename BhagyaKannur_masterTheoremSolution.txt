@@ -1,0 +1,25 @@
+a) T (n) = 3T (n/2) + n
+         =  3Tn/2 + n/2
+         =  Θn
+
+b) T (n) = 64T (n/8) − n^2(log n)
+         = log 8Tn-log n(log n)
+         = log  8Tn -log n ^ 2  
+         = Θlog n
+         
+c) T (n) = 2nT (n/2) + n^n
+         = Tn^2 + n^n
+         = log Tn + log n
+         = 1 Θ(c)
+
+d) T (n) = 3T (n/3) + n/2
+         = Tn + n/2
+         = 2Tn +n
+         = Θn
+
+e) T (n) = 7T (n/3) + n^2
+         = 7Tn/3 + n^2
+         =log 7Tn + log n
+         =Θlog n
+
+
